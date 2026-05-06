@@ -1,17 +1,17 @@
 # requirements.txt
 # Core LLM and Agent Framework
-ollama==0.5.1
+ollama==0.6.2
 langgraph==0.2.50
-langchain-core==0.1.53
+langchain-core==0.3.84
 
 # Data Processing and Visualization
-pandas==2.2.3
-numpy>=1.26.4
-matplotlib==3.10.3
+pandas==2.3.1
+numpy==2.2.4
+matplotlib==3.10.5
 
 # Database and HTTP
-chromadb==0.5.0
-requests==2.31.0
+chromadb==1.5.8
+requests==2.33.1
 
 # Utilities
-python-dotenv==1.0.0
+python-dotenv==1.1.1
