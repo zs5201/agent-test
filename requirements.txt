@@ -3,7 +3,7 @@
 ollama==0.6.2
 langgraph==0.2.50
 langchain-core==0.3.84
-langchain==1.2.15
+langchain
 
 # Data Processing and Visualization
 pandas==2.3.1
