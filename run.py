@@ -9,7 +9,7 @@ def ensure_config():
     load_dotenv(env_path) if env_path.exists() else load_dotenv()  # 加载已有配置
 
     api_key = os.getenv('OLLAMA_API_KEY')
-    model = os.getenv('OLLAMA_CLOUD_MODEL', 'llama3.1')  # 默认模型
+    model = os.getenv('OLLAMA_CLOUD_MODEL', 'gpt-oss:120b-cloud')  # 默认模型
 
     need_save = False
     if not api_key or api_key == 'your_api_key_here':
